@@ -10,8 +10,12 @@
 </head>
 
 <body>
-    <h1>Home</h1>
-    <h2>Testing</h2>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/help">Help</a>
+    </nav>
+    <h1>Home Page</h1>
 </body>
 
 </html>
