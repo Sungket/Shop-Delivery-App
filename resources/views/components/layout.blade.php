@@ -10,6 +10,12 @@
 </head>
 
 <body>
+
+    <nav>
+        <x-nav-bar href="/">Home</x-nav-bar>
+        <x-nav-bar href="/help">Help</x-nav-bar>
+        <x-nav-bar href="/contact">Contact</x-nav-bar>
+    </nav>
     
     {{$slot}}
 
