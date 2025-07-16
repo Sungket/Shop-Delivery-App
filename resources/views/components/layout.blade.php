@@ -22,9 +22,9 @@
             <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <x-nav-bar href="/">Home</x-nav-bar>
-                <x-nav-bar href="/help" >Help</x-nav-bar>
-                <x-nav-bar href="/contact">Contact</x-nav-bar>
+                <x-nav-bar href="/" :active="request()->is('/')">Home</x-nav-bar>
+                <x-nav-bar href="/help" :active="request()->is('help')">Help</x-nav-bar>
+                <x-nav-bar href="/contact" :active="request()->is('contact')">Contact</x-nav-bar>
                 </div>
             </div>
             </div>
